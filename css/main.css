@@ -1,0 +1,270 @@
+/*Fonts*/
+@import 
+url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@300&display=swap');
+
+/*General Styles*/
+html {
+	 box-sizing: border-box;
+}
+*,*::before, *::after {
+	box-sizing: inherit;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+	color: #202228;
+ text-align: center;
+}
+h1,h2,h3,h4{
+	font-family: 'Lato', sans-serif;
+}
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+#pageheader {
+	background-color: #202228;
+	width: 100%;
+	height: 8em;
+	max-width: 1260px;
+	margin:0 auto;
+}
+#pageheader h1{
+color: white;
+margin: 0;
+width: 5em;
+padding-left: 1.5em;
+padding-top: 2em;
+font-size: 23px;
+}
+#pageheader a{
+	color: white;
+	text-decoration: none;
+}
+#main-menu{
+	position: absolute;
+	top: 2.0em;
+ right: 3em;
+}
+#logo{
+	color:#19c17e ;
+}
+#main-menu li {
+list-style-type: none;
+display:inline-block;
+}
+#main-menu li a{
+	color: white;
+	padding-right: 2em;
+	text-decoration: none;
+}
+#main-menu li a:hover{
+	color:#19c17e;
+}
+#main-menu li button{
+	margin-right: 2em;
+}
+#signin-button:hover{
+	color:white;
+}
+#top-content{
+	width: 100%;
+	background-image: url("../images/ostrich-fern.jpg");
+	margin: 0;
+	height: 16.5em;
+}
+#main-heading {
+	text-align: left;
+	color: white;
+	margin: 0;
+ font-size: 6em;
+ padding: 0.2em;
+ text-shadow: 1px 1px 5px black;
+}
+#article-1{
+	float:left;
+	width: 50%;
+ text-align: left;
+ padding: 1em;
+}
+#article-1 img{
+height: auto;
+width: 8em;
+}
+#article-1 ul{
+	float:right;
+	width: 75%;
+}
+#article-1 p{
+display: inline;
+}
+#registration {
+	float:right;
+	width: 50%;
+ text-align: left;
+ padding: 1em;
+ height: 17.5em;
+ color: black;
+}
+#registration a{
+	color: #397153 ;
+}
+#registration a:hover{
+	color: #01a765 ;
+	text-decoration: none;
+}
+#registerbutton{
+	margin-left: 16.5em;
+}
+#registerbutton:hover{
+color: white;
+background-color: #19c17e;
+}
+#find-section {
+	background-color: #defef1;
+	display: inline-block;
+	width: 100%;
+	height:32em;
+}
+#find-section h3{
+	padding-left: 1em;
+	margin-top: 2.3em;
+}
+#find-section h4 {
+	color:#397153;
+}
+#find-section h4:hover {
+	color:#01a765;
+}
+#find-section p {
+	color:#202228;;
+}
+#find-section li{
+	list-style-type: none;
+	float: left;
+	padding-left: 5em;
+}
+#find-section button:hover{
+	color: white;
+background-color: #19c17e;
+}
+#comment-form{
+	background-color: #19c17e;
+	width:100%;
+	height:22em;
+	max-width: 1200px;
+	margin:0 auto;
+}
+#comment-form h3{
+	padding-top: 2em;
+	margin-top: 0;
+}
+#comment-form p{
+	text-align: center;
+	color: #202228;
+}
+#emailId {
+	width: 32em;
+	height: 3em;
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+}
+#emailId::placeholder{
+	font-size: 1.5em;
+}
+#interests {
+	border:1px solid #defef1;
+	margin: auto;
+	width: 43%;
+	margin-top: 1.5em;
+	height: 3.2em;
+	margin-bottom: 0.5em;
+}
+#interests>label:first-child{
+  padding-left: 5px;
+  padding-right: 5px;
+  position:relative;
+  top: -11px;
+  left: -350px;
+  background-color:#19c17e;
+	}
+#tool-interest{
+	margin-top: 0em;
+	}
+.interest-items{
+	float: left;
+ width: 10em;
+ margin-top: 1em;
+ padding-left: 1em;
+}
+#subscribe-button:hover{
+color: #19c17e;
+}
+#main-footer {
+	background-color: #202228;
+	max-width: 1260px;
+	margin:0 auto;
+	height: 14em;
+}
+#main-footer h5{
+	padding-left: 3em;
+}
+#main-footer li{
+	list-style-type: none;
+	text-align: left;
+}
+#main-footer {
+	color: white;
+	text-align: left;
+	text-decoration: none;
+}
+#main-footer p{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	margin-top:0.5em;
+}
+#main-footer li a{
+	text-decoration: none;
+	color: white;
+}
+#main-footer li a:hover{
+	color: #19c17e;
+}
+#footer-bottom{
+	color: white;
+ float: left;
+ border-top: 2px solid #19c17e;
+ width: 95%;
+ margin: 2em;
+}
+.footerdiv{
+	float: left;
+	width: 19em;
+}
+.buttonstyle {
+	border-radius: 0.5em;
+	height: 2.3em;
+ width: 5em;
+ background-color: #19c17e;
+ border: none;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 0.9em;
+}
+.heading {
+	text-align: center;
+	color: #397153;
+}
+.buttonstyle-2{
+	background-color: #202228;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	border: none;
+	border-radius: 0.5em;
+	color: white;
+	height: 2.2em;
+ margin-top: 1em;
+}
